@@ -6,4 +6,4 @@ def solution(numbers):
     for i in numbers:
         if n2 < i < n:
             n2 = i
-    return max(numbers) * n2
+    return n * n2
